@@ -2,11 +2,11 @@
 
 A comprehensive portfolio of tasks and projects completed during the **National Telecom Institute (NTI)** Summer Training Program in Web Design.
 
-## 📋 Overview
+## Overview
 
 This repository showcases practical experience and skills development in web design, covering front-end development, UI/UX principles, and modern web technologies. All projects demonstrate progressive learning and application of industry best practices.
 
-## 🎯 Training Program Details
+## Training Program Details
 
 - **Organization:** National Telecom Institute (NTI)
 - **Program:** Web Design Summer Training
@@ -18,16 +18,7 @@ This repository showcases practical experience and skills development in web des
   - UI/UX Design Principles
   - Web Performance & Accessibility
 
-## 📂 Repository Structure
-
-```
-├── projects/          # Main project implementations
-├── tasks/            # Individual training tasks
-├── resources/        # References and learning materials
-└── README.md         # This file
-```
-
-## 🚀 Projects & Tasks
+## Projects & Tasks
 
 ### Projects
 Each project includes:
@@ -42,20 +33,20 @@ Individual assignments demonstrating mastery of specific concepts:
 - Design exercises
 - Real-world problem-solving scenarios
 
-## 💻 Technologies & Tools
+## Technologies & Tools
 
 - **Languages:** HTML5, CSS3, JavaScript (ES6+)
 - **Frameworks/Libraries:** [Add relevant frameworks]
 - **Design Tools:** [Add relevant design tools]
 - **Version Control:** Git & GitHub
 
-## 📚 Key Learning Outcomes
+## Key Learning Outcomes
 
-- ✅ Create responsive and accessible web layouts
-- ✅ Implement interactive features using JavaScript
-- ✅ Apply modern CSS techniques (Flexbox, Grid)
-- ✅ Follow web design best practices and standards
-- ✅ Optimize web performance and user experience
+- Create responsive and accessible web layouts
+- Implement interactive features using JavaScript
+- Apply modern CSS techniques (Flexbox, Grid)
+- Follow web design best practices and standards
+- Optimize web performance and user experience
 
 ## 🔗 Getting Started
 
@@ -73,12 +64,6 @@ To explore the projects:
 
 3. Open any project file in your browser or code editor to review the implementation
 
-## 📖 How to Use This Repository
-
-- Browse the `projects/` folder for completed web design projects
-- Check `tasks/` for individual coding assignments
-- Review `resources/` for learning materials and references
-- Examine the code to understand different web design approaches
 
 ## 🎓 About the Training
 
@@ -92,8 +77,3 @@ The NTI Summer Training Program in Web Design provides hands-on experience with 
 ## 📄 License
 
 This repository contains personal training work. Please feel free to use it as a reference for learning purposes.
-
----
-
-**Last Updated:** May 2026  
-**Training Status:** In Progress

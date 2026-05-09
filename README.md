@@ -48,7 +48,7 @@ Individual assignments demonstrating mastery of specific concepts:
 - Follow web design best practices and standards
 - Optimize web performance and user experience
 
-## 🔗 Getting Started
+## Getting Started
 
 To explore the projects:
 

@@ -1,0 +1,45 @@
+
+main{
+    min-height: 1500px;
+}
+section:first-of-type{
+    width: 100%;
+    min-height: 900px;
+    background: url(../images/2.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+.nav-link {
+    color: rgb(208, 208, 208) !important;
+}
+.nav-link:hover {
+     color: #ffffff !important;
+}
+.nav-link.active {
+        color: #f8f9fa !important; 
+}
+.w-20 {
+        width: 20%;
+}
+.fs-10{
+    font-size: 35px;
+}
+.process{
+    background: url(../images/process-bg.jpg) no-repeat center/cover;
+    min-height: 600px;
+}
+.bg-1{
+    background: url(../images/p-bg1.jpg) no-repeat top/cover;
+    height: 300px;
+}
+.bg-2{
+    background: url(../images/p-bg2.jpg) no-repeat top/cover;
+    height: 300px;
+}
+.bg-3{
+    background: url(../images/p-bg3.jpg) no-repeat top/cover;
+    height: 300px;
+}
+.bg-4{
+    background: url(../images/p-bg4.jpg) no-repeat top/cover;
+    height: 300px;
+}

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: "Ubuntu", sans-serif; */
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Maven Pro", sans-serif; */
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 70px;
+    background-color: #234975;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    box-shadow: 0 5px 10px #f90;
+}
+header div img{
+    float: left;
+    padding: 5px 0 0 20px;
+}
+nav{
+    width: 40%;
+    height: 70px;
+    float: right;
+}
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    transition: 0.5s ease all;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 70px;
+    line-height: 70px;
+    font-size: 20px;
+    font-family: "Outfit", sans-serif;
+    border-right: 1px solid white;
+}
+nav ul li:hover{
+    background-color: #577495;
+}
+/* End of Header ************************************/
+section:first-of-type{
+    height: 800px;
+    width: 100%;
+    background-color: aquamarine;
+    overflow: hidden;
+}
+section:first-of-type{
+    background-image: url(../images/slider.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px; 
+}
+section:first-of-type .container{
+    position: fixed;
+    top: 150px;
+}
+section:first-of-type .slider{
+    width: 300px;
+    height: 60px;
+    margin-block: 20px;
+    position: relative;
+    left: -240px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.slider:first-of-type{
+    background-color: #25d366;
+}
+.slider:nth-of-type(2){
+    background-color: #cc2727;
+}
+.slider:nth-of-type(3){
+    background-color: #3588f4;
+}
+.slider:last-of-type{
+    background-color: #9954ab;
+}
+.slider a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.slider a img{
+    width: 50px;
+    position: absolute;
+    left: calc(50% - 25px);
+    padding-top: 5px;
+}
+.slider:hover{
+    margin-left: 240px;
+}
+/* End of Home ************************************/
+section:nth-of-type(2){
+    width: 100%;
+    height: 300px;
+    background-color: #e8e6e6;
+    overflow: hidden;
+    font-family: "Maven Pro", sans-serif;
+}
+section:nth-of-type(2) .inner{
+    width: 80%;
+    height: 200px;
+    margin-inline: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+section:nth-of-type(2) .inner .box{
+    width: 30%;
+    float: left;
+    background-color: white;    
+}
+section:nth-of-type(2) .inner .b{
+    margin-inline: 5%;
+}
+section:nth-of-type(2) .inner .box h2{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    margin: 0;
+    color: white;
+}
+section:nth-of-type(2) .inner .a h2{
+    background-color: #234975;
+}
+section:nth-of-type(2) .inner .b h2{
+    background-color: #3588f4;
+}
+section:nth-of-type(2) .inner .c h2{
+    background-color: #9954ab;
+}
+section:nth-of-type(2) .inner .box p{
+    height: 240px;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    line-height: 25px;
+}
+/* End of Boxes ************************************/
+section:last-of-type{
+    width: 100%;
+    height: 400px;
+    background-color: #234975;
+}
+section:last-of-type .left img{
+    height: 400px;
+    float: left;
+}
+section:last-of-type .left{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+section:last-of-type .right{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+section:last-of-type .right p{
+    color: white;
+    font-family: "Outfit", sans-serif;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 30px 150px 0 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+marquee{
+    background-color: #e8e6e6;
+    font-family: "Ubuntu", sans-serif;
+    height: 30px;
+    /* color: white; */
+    line-height: 30px;
+}
+
+

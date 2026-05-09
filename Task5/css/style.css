@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: "Ubuntu", sans-serif; */
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Maven Pro", sans-serif; */
+:root{
+    --main-color: #fce51b;
+    --main-font: "Maven Pro", sans-serif;
+    --secondary-font: "Outfit", sans-serif;
+    --third-font: "Ubuntu", sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+main{
+    width: 100%;
+    min-height: 1500px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(black,#818181);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+.logo{
+    width: 20%;
+    height: 100%;
+}
+.logo img{
+    height: 100%;
+    padding: 5px 0 5px 50px;
+    box-sizing: border-box;
+}
+nav{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+nav ul li{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    font-size: 22px;
+    transition: 0.8s all ease;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-family: var(--main-font);
+}
+nav ul li:hover{
+    background-color: black;
+}
+@media screen and (max-width: 400px){
+    header{
+        justify-content: center;
+    }
+    nav{width: 400px;}
+    nav ul li{width: 100%;}
+}
+/* End of Header ************************************************/
+section:first-of-type{
+    width: 100%;
+    height: 700px;
+    background-color: var(--main-color);
+    margin-top: 100px;
+    overflow: hidden;
+}
+section:first-of-type img{
+    width: 100%;
+    clip-path: circle(850px at top center);
+}
+.slider{
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    top: 200px;
+    left: -230px;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: 1s all ease;
+    cursor: pointer;
+}
+.slider .search input{
+    width: 180px;
+    height: 20px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.slider .icon img{
+    width: 40px;
+}
+.slider:hover{
+    left: 0;
+}
+/* End of Home ************************************************/
+section:nth-of-type(2){
+    width: 100%;
+    height: 200px; 
+}
+section:nth-of-type(2) .inner{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section:nth-of-type(2) .tennis{
+    border: 2px solid var(--main-color);
+    background-color: white;
+    padding: 60px 10px;
+    border-radius: 10px;
+    margin-top: -50px;
+    position: relative;
+    z-index: 2;
+}
+section:nth-of-type(2) .tennis img{
+   width: 300px;
+}
+section:nth-of-type(2) .tennis::before {
+    content: "Join Now";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0; 
+    height: 0;
+    background-color: #fce51b98;
+    transition: all 0.7s ease; 
+    font-size: 30px;
+    font-weight: 900;
+    clip-path: circle(70% at top left);
+}
+section:nth-of-type(2) .tennis:hover::before {
+    width: 100%; 
+    height: 100%; 
+}
+/* End of Tennis ************************************************/
+section:nth-of-type(3){
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    overflow: hidden;
+}
+h2{
+    text-align: center;
+    font-family: var(--main-font);
+    font-size: 42px;
+}
+hr{
+    width: 30%;
+    text-align: center;
+}
+section:nth-of-type(3) .inner{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--third-font);
+}
+section:nth-of-type(3) .inner .left{
+    width: 40%;
+}
+section:nth-of-type(3) .inner .right{
+    width: 60%;
+}
+section:nth-of-type(3) .inner .right img{
+    width: 100%;
+    border-radius: 20px;
+    position: relative;
+}
+section:nth-of-type(3) .inner .left h3{
+    font-size: 26px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: #8181818a;
+    transition: .5 all ease;
+    clip-path: circle(0 at center);
+}
+section:nth-of-type(3) .inner .right img:hover .overlay{
+    clip-path: circle(90% at center);
+}
+/* End of About Us ************************************************/
+section:nth-of-type(4) {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;   
+}
+section:nth-of-type(4) .inner {
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section:nth-of-type(4) table {
+    width: 100%; 
+    border-collapse: collapse; 
+    font-family: var(--main-font); 
+}
+section:nth-of-type(4) td {
+    padding: 15px; 
+    text-align: center;
+    font-size: 18px; 
+    color: #000; 
+    font-weight: 500; 
+}
+section:nth-of-type(4) .inner table tr:nth-of-type(even){
+    background-color: #d4d3d3;
+}
+/* End of Table ************************************************/
+section:nth-of-type(5){
+    width: 100%;
+    overflow: hidden;
+}
+section:nth-of-type(5) .inner{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+section:nth-of-type(5) .inner .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--third-font);
+}
+section:nth-of-type(5) .inner .top .news{
+    width: 30%;
+    border: 1px solid black;
+}
+
+section:nth-of-type(5) .inner .top .news .text h3, p{
+    margin: 0;
+}
+section:nth-of-type(5) .inner .top .news .text{
+    padding: 10px;
+}
+section:nth-of-type(5) .inner .top img{
+    width: 90%;
+    padding: 20px 0 0 20px;
+}
+section:nth-of-type(5) .inner .bottom{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-block: 10px;
+    box-sizing: border-box;
+}
+section:nth-of-type(5) .inner .left{
+    width: 40%;
+}
+section:nth-of-type(5) .inner .right{
+    width: 50%;
+}
+section:nth-of-type(5) .inner .right iframe{
+    width: 100%;
+    height: 100%;
+}
+/* End of News ************************************************/
+section:last-of-type iframe{
+    width: 100%;
+    height: 600px;
+}
+/* End of Map ************************************************/
+footer{
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+    height: 30px;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    margin: 0;
+}
+/* End of Footer ************************************************/
+form {
+    width: 90%;
+    max-width: 600px; 
+    margin: 40px auto; 
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: var(--secondary-font);
+}
+legend {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+form .row {
+    margin-block: 15px; 
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+form label {
+    font-size: 16px;
+    font-weight: 500;
+}
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="url"],
+form input[type="tel"],
+form input[type="file"],
+form input[type="datetime-local"],
+form select,
+form textarea {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    background-color: #fff;
+    box-sizing: border-box; 
+}
+form textarea {
+    min-height: 100px;
+    max-width: 100%;
+}
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: none;
+    border-color: var(--main-color);
+    box-shadow: 0 0 5px rgba(252, 229, 27, 0.5); 
+}
+form .row div {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    margin-top: 5px;
+}
+form .btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+form input[type="submit"],
+form input[type="reset"] {
+    width: 40%;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d1d10c;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+form input[type="submit"]:hover {
+    background-color: #bdbd0f;
+}
+form input[type="reset"] {
+    background-color: #666; 
+}
+form input[type="reset"]:hover {
+    background-color: #555;
+}

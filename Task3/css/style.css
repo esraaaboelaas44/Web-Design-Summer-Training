@@ -1,0 +1,270 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&family=Outfit:wght@100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+/* font-family: "Ubuntu", sans-serif; */
+/* font-family: "Outfit", sans-serif; */
+/* font-family: "Maven Pro", sans-serif; */
+
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+main{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(221, 77, 72);
+    font-family: "Maven Pro", sans-serif;
+}
+nav{
+    width: 100%;
+    height: 60px;
+}
+nav span{
+    display: inline-block;
+    height: 60px;
+    width: 50%;
+    line-height: 60px;
+    padding-left: 50px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 24px;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+    width: 50%;
+}
+nav ul li{
+    float: left;
+    width: 20%;
+    height: 60px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+}
+nav .submenu{
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: 0.5s;
+}
+nav .submenu li{
+    width: 100%;
+}
+nav ul li:hover{
+    background-color: rgb(241, 121, 141);
+}
+nav ul .dropdown:hover .submenu{
+    height: 180px;
+}
+.cleardiv{
+    clear: both;
+}
+.home{
+    text-align: center;
+    color: white;
+    margin-top: 230px;
+}
+.home p{
+    font-size: 100px;
+    margin: 0;
+    height: 150px;
+    line-height: 150px;
+    margin-bottom: 30px;
+}
+.home a span{
+    display: block;
+    font-size: 40px;
+    border: 2px solid rgb(172, 41, 41);
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    font-weight: bold;
+}
+.home a{
+    text-decoration: none;
+    color: white;
+}
+/* End of Header Section ***********************************************/
+.about{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    font-family: "Outfit", sans-serif;
+}
+.inner{
+    width: 80%;
+    margin-inline: auto;
+    overflow: hidden; 
+    font-family: "Outfit", sans-serif;
+    /* background-color: aqua; */
+}
+.about h2{
+    margin: 0;
+}
+.about img{
+    width: 35%;
+    float: right;
+    padding-left: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.about span{
+    width: 65%;
+    display: inline-block;
+    line-height: 30px;
+}
+/* End of About Us Section ***********************************************/
+.services{
+    height: 600px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 243, 243);
+}
+.services .inner{
+    height: 400px;
+}
+.services .inner h2{
+    margin: 0;
+}
+.services .inner table{
+    display: inline-block;
+    width: 55%;
+    text-align: left;
+    border-collapse: collapse;
+    font-size: 24px;
+}
+table th, table td{
+    width: 250px;
+    height: 70px;
+    padding: 25px;
+    box-sizing: border-box;
+}
+table th{
+    color: white;
+    background-color: rgb(175, 9, 9);
+}
+table tbody tr:nth-of-type(2){
+    color:  rgb(175, 9, 9);
+    font-weight: bold;
+    background-color: rgb(236, 236, 236);
+    border-block: 1px solid rgb(204, 203, 203);
+}
+.services .inner img{
+    width: 35%;
+    float: right;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+/* End of Services Section ***********************************************/
+.last {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.inner {
+    text-align: left; 
+}
+
+.boxes {
+    display: inline-block;
+    width: 60%; 
+    line-height: 25px;
+}
+.boxes hr{
+    width: 100%;
+    background-color: rgb(154, 179, 154);
+    height: 1px;
+    border: none;
+    margin-block: 20px;
+}
+.box1 {
+    height: 200px;
+    margin-bottom: 50px;
+    display: block; 
+    background-color: rgb(179, 226, 179);
+    padding: 20px;
+    border-radius: 10px;
+    color: rgb(34, 94, 34);
+    
+}
+.box2 {
+    height: 200px;
+    margin-bottom: 50px;
+    display: block; 
+    background-color: rgb(221, 198, 210);
+    padding: 25px;
+    border-radius: 10px;
+    color: rgb(124, 37, 82);
+}
+.box2 hr{
+    background-color: rgb(172, 147, 160);
+}
+.boxes h2{
+    margin: 0;
+    font-size: 32px;
+}
+.icons-text{
+    margin-top: 100px;
+    float: right;
+    width: 30%; 
+}
+.icons-text .icons{
+    display: block; 
+    text-align: center; 
+    margin-bottom: 80px;
+}
+.icons img{
+    display: inline-block; 
+    margin: 10px; 
+}
+.icons-text p{
+    display: block; 
+    margin: 0 10px;
+    font-size: 24px;
+}
+/* End of Last Section ***********************************************/
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(221, 77, 72);
+    overflow: hidden;
+}
+footer a p{
+    margin-inline: auto;
+    margin-top: 160px;
+    font-size: 40px;
+    border: 2px solid rgb(172, 41, 41);
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="action.html">
+        <legend>Registration Form</legend>
+        <div class="row">
+            <label for="uname">Username</label>
+            <input type="text" id="uname" required maxlength="10" placeholder="Enter your username">
+        </div>
+        <div class="row">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" maxlength="15" required placeholder="Enter your password">
+        </div>
+        <div class="row">
+            <label for="">Email</label>
+            <input type="email" placeholder="Enter your email" required>
+        </div>
+        <div class="row">
+            <label for="">Website</label>
+            <input type="url" placeholder="Enter the URL of your website">
+        </div>
+        <div class="row">
+            <label for="">Phone</label>
+            <input type="tel" placeholder="Enter your phone number" required>
+        </div>
+        <div class="row">
+            <label for="">File</label>
+            <input type="file" placeholder="Upload your portfolio">
+        </div>
+        <div class="row">
+            <label for="">Type</label>
+            <div>
+                <input type="radio" id="female" name="xo">
+                <label for="female">Female</label>
+            </div>
+            <div>
+                <input type="radio" id="male" name="xo">
+                <label for="male">Male</label>
+            </div>
+        </div>
+        <div class="row">
+            <label for="">Choose your track</label>
+            <div>
+                <input type="checkbox">
+                <label for="">Front-End</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="">Back-End</label>
+            </div>
+            <div>
+                <input type="checkbox">
+                <label for="">Full-Stack</label>
+            </div>
+        </div>
+        <div class="row">
+            <label for="">Birthdate</label>
+            <input type="datetime-local">
+        </div>
+        <div class="row">
+            <label for="">Select City</label>
+            <select name="" id="">
+                <option value="" disabled selected></option>
+                <optgroup label="Big Cairo">
+                    <option value="">Cairo</option>
+                    <option value="">Giza</option>
+                    <option value="">Qaliubia</option>
+                </optgroup>
+                <optgroup label="Upper Egypt">
+                    <option value="">Bany Swif</option>
+                    <option value="">Menia</option>
+                    <option value="">Sohag</option>
+                    <option value="">Aswan</option>
+                </optgroup>
+                <optgroup label="North Cost">
+                    <option value="">Alex</option>
+                    <option value="">Matroh</option>
+                </optgroup>
+            </select>
+        </div>
+        <div class="row">
+            <label for="">Comment</label>
+            <textarea name="" id=""></textarea>
+        </div>
+        <div class="btn">
+            <input type="submit" value="submit">
+            <input type="reset" value="clear">
+        </div>  
+    </form>
+</body>
+</html>

@@ -65,15 +65,15 @@ To explore the projects:
 3. Open any project file in your browser or code editor to review the implementation
 
 
-## 🎓 About the Training
+## About the Training
 
 The NTI Summer Training Program in Web Design provides hands-on experience with modern web technologies and design principles. This repository serves as a cumulative record of learning progress and technical expertise development.
 
-## 📞 Contact & Social
+## Contact & Social
 
 - **GitHub:** [@esraaaboelaas44](https://github.com/esraaaboelaas44)
 - **Training Program:** National Telecom Institute
 
-## 📄 License
+## License
 
 This repository contains personal training work. Please feel free to use it as a reference for learning purposes.
